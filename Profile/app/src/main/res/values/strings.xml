@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Profile</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_ask">Profile:</string>
+    <string name="field_name">Name:</string>
+    <string name="field_email">Email:</string>
+    <string name="field_photo">Photo:</string>
+    <string name="field_password">Password:</string>
+    <string name="field_birth_date">Birth Date:</string>
+    <string name="hint_photo">(Click to change)</string>
+    <string name="hint_name">Your name</string>
+    <string name="hint_password">Your Password</string>
+    <string name="hint_birth_date">08/11/2025</string>
+    <string name="hint_email">Your email</string>
+    <string name="field_gender">Gender:</string>
+    <string name="radio_female">Female</string>
+    <string name="radio_male">Male</string>
+    <string name="button_save">Save</string>
+    <string name="info_saved">Data was saved</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_read_file_permission">Please allow the application to read your files so that it can import profile images.</string>
+    <string name="toast_read_file_permission_granted">The application can access your files.</string>
+    <string name="toast_read_file_permission_denied">You did not allow the application to read your file so you will not be able to set a
+profile image.</string>
+    <string name="question_scp">Champion (SCP)?</string>
+    <string name="question_user_type">Choose a user type?</string>
+    <string name="toast_empty_fields">Empty fields can\'t be saved</string>
+    <string-array name="user_type_arrays">
+        <item> </item>
+        <item>Client</item>
+        <item>Owner</item>
+        <item>Patient</item>
+        <item>Administrator</item>
+        <item>Employee</item>
+        <item>CrazyMan</item>
+        <item>Developer</item>
+    </string-array>
+</resources>
