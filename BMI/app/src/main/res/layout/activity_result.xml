@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ResultActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="@string/app_name"
+        android:background="@color/dark_gray"
+        app:titleTextColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <TextView
+        android:id="@+id/yourResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_result"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/bmiResult"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed" />
+
+    <TextView
+        android:id="@+id/bmiResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/default_value"
+        android:textStyle="bold"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@id/mesures"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/yourResult"/>
+
+    <TextView
+        android:id="@+id/mesures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mesure"
+        android:textColor="@color/gray"
+        android:textSize="11sp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/bmiCategory"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bmiResult"/>
+
+    <TextView
+        android:id="@+id/bmiCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normalweight"
+        android:textSize="20sp"
+        android:background="@color/normalweight"
+        android:textColor="@color/black"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:paddingEnd="32dp"
+        android:paddingStart="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btRecalculate"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mesures" />
+
+    <Button
+        android:id="@+id/btRecalculate"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:cornerRadius="0dp"
+        android:text="@string/repeat"
+        android:backgroundTint="@color/gray"
+        android:textColor="@color/black"
+        android:layout_marginBottom="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginStart="32dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
