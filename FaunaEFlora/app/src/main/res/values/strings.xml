@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FaunaEFlora</string>
+    <string name="fauna_e_flora"><![CDATA[Fauna & Flora]]></string>
+    <string name="azalea_title">Azálea</string>
+    <string name="azalea_subtitle">Julho</string>
+    <string name="begonia_title">Begónia</string>
+    <string name="begonia_subtitle">Maio</string>
+    <string name="crisantemo_title">Crisântemo</string>
+    <string name="crisantemo_subtitle">Junho</string>
+    <string name="minimargarida_title">Minimargarida</string>
+    <string name="minimargarida_subtitle">Julho</string>
+    <string name="jacinto_title">Jacinto</string>
+    <string name="jacinto_subtitle">a colocar</string>
+    <string name="hortensia_title">Hortensia</string>
+    <string name="hortensia_subtitle">a colocar</string>
+    <string name="onze_horas_title">Onze Horas</string>
+    <string name="onze_horas_subtitle">a colocar</string>
+    <string name="lisianto_title">Lisianto</string>
+    <string name="lisianto_subtitle">a colocar</string>
+    <string name="gavial_title">Gavial</string>
+    <string name="babirusas_title">Babirusas</string>
+    <string name="isopodo_title">Isópodo gigante</string>
+    <string name="bico_de_tamanco_title">Bico de Tamanco</string>
+    <string name="urso_title">Urso</string>
+    <string name="komodo_title">Komodo</string>
+    <string name="tartaruga_title">Tartaruga Aligator</string>
+    <string name="engolidor_title">Engolidor</string>
+    <string name="ra_title">Rã roxa</string>
+    <string name="btn_voltar">Voltar</string>
+    <string name="txt_cuidados_cultivo">Cuidados Cultivo</string>
+    <string name="txt_habitat">Habitat</string>
+
+</resources>
