@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TesteJuliaMizuguchi</string>
+    <string name="conversor">CONVERT</string>
+    <string name="radio_euro">EUR</string>
+    <string name="radio_dolar">DOLAR</string>
+    <string name="bt_txtconverter">convert</string>
+    <string name="login">LOGIN</string>
+    <string name="input_login_utilizador">USER</string>
+    <string name="input_login_senha">PASSWORD</string>
+    <string name="menu_sobre">ABOUT</string>
+    <string name="bt_entrar">login</string>
+    <string name="unit_euro">€</string>
+    <string name="unit_dolar">$</string>
+    <string name="sobre">ABOUT</string>
+    <string name="text_about">"This application is a convert from euro to dolar and it was made by Julia_2025116155 "</string>
+    <string name="back"><![CDATA[<-]]></string>
+</resources>

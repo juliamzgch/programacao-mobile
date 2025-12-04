@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">EuroDolarConvert</string>
+    <string name="conversor">CONVERSOR</string>
+    <string name="radio_euro">EUR</string>
+    <string name="radio_dolar">DOLAR</string>
+    <string name="bt_txtconverter">converter</string>
+    <string name="login">LOGIN</string>
+    <string name="input_login_utilizador">UTILIZADOR</string>
+    <string name="input_login_senha">SENHA</string>
+    <string name="menu_sobre">SOBRE</string>
+    <string name="bt_entrar">entrar</string>
+    <string name="unit_euro">€</string>
+    <string name="unit_dolar">$</string>
+    <string name="sobre">SOBRE</string>
+    <string name="text_about">Esta aplicação é um conversor de euros para dólares e foi desenvolvida por Julia_2025116155</string>
+    <string name="back"><![CDATA[<-]]></string>
+</resources>
