@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:gravity="center"
+    android:orientation="horizontal"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" >
+    <!-- evitar de usar padding e margin e usar
+    os layouts nativos (match_parent, wrap_content, 0dp
+    (quando calhar)
+    e weight )-
+    nesses casos, o melhor
+    é pensar em porcentagem -->
+
+    <!-- quando temos apenas um elemento
+    dá muito jeito colocar em uma constraint
+    é muito melhor para centralizar o objeto -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1" >
+        <!-- como estamos na horizontal
+        a altura é a altura da tela
+        então pode ser o valor máximo
+        do ecran inteiro -->
+
+        <ImageView
+            android:id="@+id/imgMode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:src="@drawable/unmuted"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+            <!-- como temos um texto
+            é aconselhável deixar ele do tamanho
+            que ele precise ocupar -->
+            <TextView
+                android:id="@+id/txtMode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="30dp"
+                android:text="@string/normal_mode"
+                android:textSize="30sp" />
+
+            <!-- nesse caso, o mesmo serve p/ o botão -->
+            <Button
+                android:id="@+id/btnToggle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/toggle"
+                android:textSize="25sp"
+                app:cornerRadius="5dp"
+                android:backgroundTint="#e9658d"/>
+
+    </LinearLayout>
+
+</LinearLayout>

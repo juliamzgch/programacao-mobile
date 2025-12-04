@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LAB03.2</string>
+    <string name="radioCelsius">para Celsius</string>
+    <string name="radioFahrenheit">para Fahrenheit</string>
+    <string name="btCalcular">Converter</string>
+    <string name="barTemp">Temperatura</string>
+</resources>

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LAB03.2</string>
+    <string name="radioCelsius">to Celsius</string>
+    <string name="radioFahrenheit">to Fahrenheit</string>
+    <string name="btCalcular">Convert</string>
+    <string name="barTemp">Temperature</string>
+</resources>
