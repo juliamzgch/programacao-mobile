@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">UserDB</string>
+    <string name="search_hint">Search by name</string>
+    <string name="profile_title">Profile:</string>
+    <string name="field_name">Name:</string>
+    <string name="hint_name">Your name</string>
+    <string name="field_email">Email:</string>
+    <string name="hint_email">Your email</string>
+    <string name="field_password">Password:</string>
+    <string name="hint_password">Your password</string>
+    <string name="btn_search">SEARCH</string>
+    <string name="btn_add">ADD</string>
+    <string name="btn_delete">DELETE</string>
+    <string name="btn_list_all">LIST ALL</string>
+    <string name="missing_name">Missing name</string>
+    <string name="missing_email">Missing email</string>
+    <string name="missing_password">Missing password</string>
+    <string name="user_updated">User was updated</string>
+    <string name="user_inserted">User was inserted</string>
+    <string name="user_deleted">User deleted</string>
+    <string name="user_not_found">User not found</string>
+    <string name="user_found1">User (username + password) detected!</string>
+    <string name="user_found2">User (email + password) detected!</string>
+    <string name="user_list">User List</string>
+    <string name="user_selected">You selected user ID:</string>
+    <string name="btn_playlists">PLAYLISTS</string>
+    <plurals name="users_found">
+        <item quantity="one">One %d user found</item>
+        <item quantity="other">
+            Found a total of %d users. Displaying only the first one found
+        </item>
+    </plurals>
+</resources>
